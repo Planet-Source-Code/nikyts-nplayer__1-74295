@@ -1,0 +1,524 @@
+++++++++++++++++++++++++++++++++++++++++++
+    NPlayer - Nikyts software
+    http://www.nikyts.com
+++++++++++++++++++++++++++++++++++++++++++
+
+    Language: English (ENG)
+		
+[Setup]
+Title=Settings NPlayer
+Button_Close=Close
+Label_Welcome=Welcome to NPlayer
+Label_Set=Select your preferences
+Label_Language=Language
+Check_Shortcut=Create shortcut on the desktop
+Button_Ok=Ok
+Button_Cancel=Cancel
+
+[Install]
+Title1=Check components
+Title2=Register Components
+Button_Close=Close
+Label_Info=The program to run properly you have to register some components.
+Button_Ok=Register
+Button_Cancel=Cancel
+
+[Support]
+Title=Technical Support
+Button_Close=Close
+Label_Error=Enter a valid email address.
+Label_Info=(Possible to contact if necessary)
+Label_Of=Email
+Label_Subject=Subject
+Label_Message=Message
+Label_Report=Report error
+Label_Suggestion=Suggestion
+Label_Question=Question
+Label_Other=Other
+Button_Ok=Send
+Button_Cancel=Cancel
+
+[Message]
+Button_Close=Close
+Label_Yes=Yes
+Label_Ok=OK
+Label_No=No
+Check_Remove=Remove the file from library
+Label_Error=Error nº:
+Label_Description=Description:
+Error_Execution=An error occurred during program execution.
+Error_Register=An error occurred when registering The components of the program.
+Error_Suggestion=Suggestion: run the program as administrator.
+Error_Connect=An error occurred when trying to connect to the server.
+Error_Internet=Possible cause: Your internet connection may be disconnected
+Info_Posted=Your message was sent successfully.
+Error_Email_Invalid=Email is invalid.
+Error_Email_No_Exist=The email address specified is not registered.
+Info_Request_Success1=Your request has been sent with success.
+Info_Request_Success2=You will receive an email with your access data.
+Error_TextBox_Required=Required field.
+Info_Profile_Update=Your profile was successfully updated.
+Error_Current_Password=The current password is invalid.
+Error_Password_Characters=The password must be at least 6 characters.
+Error_Confirm_Password=Confirm the password.
+Info_Password_Changed=Password changed successfully.
+Error_User_Already_Exists=The specified user already exists.
+Info_Create_Account_Success=Account created successfully.
+Quest_Remove_File=You really want to remove the file:
+Error_File_Not_Found=The selected file was not found.
+Error_Remove_Selected_File=Unable to remove the selected file.
+Info_Profile_Private1=The profile of this user is classified as private,
+Info_Profile_Private2=it is not possible to view it.
+Info_Invitation1=Hi!
+Info_Invitation2=The user
+Info_Invitation3=sent him an invitation of friendship.
+Info_Invitation_Sent_Successfully=Your invitation has been sent successfully.
+Error_Send_Mail1=An error occurred when sending e-mail.
+Error_Send_Mail2=Please try again.
+Error_DB_Server_Not_Found=An error occurred when trying to connect to the server.
+
+[About]
+Button_Close=Close
+Label_Version=Version
+Label_Developer=Developed by
+Label_Informatic=Computers and technology
+
+[New_Library]
+Title=New library
+Button_Close=Close
+Label_Search=Search in:
+Button_Search_1=Start search
+Button_Search_2=Stop search
+Button_Find=Select folder
+Info_Files=Files found:
+Info_Add_1=Adding...
+Info_Add_2=files
+Operation_Canceled=Operation canceled
+
+[Main]
+Label_File=File
+Label_Edit=Edit
+Label_View=View
+Label_Controls=Controls
+Label_Tools=Tools
+Label_Help=Help
+Button_Close=Close
+Button_Minimize=Minimize
+Button_Maximize=Maximize
+Button_Restore=Restore
+Button_Play=Play
+Button_Pause=Pause
+Button_Previous_Track=Previous track
+Button_Next_Track=Next track
+Topic_Library=Library
+Topic_Music=Music
+Topic_Movies=Movies
+Topic_Services=Services
+Topic_Radio=Radio
+Topic_Playlist=Playlist
+Topic_Find=Find
+Topic_My_Music=My music
+Topic_Search=Search results
+Name_Of_New_Playlist=New playlist
+Button_Mute_On=Mute
+Button_Mute_Off=Listen
+Menu_About=About
+Menu_Technical_Support=Technical support
+Menu_Official_Website=Official website
+Menu_Check_Updates=Check for updates
+Label_Total_Music=songs found
+Label_Total_Movies=films found
+Label_Total_Files_Online=files found
+Label_Total_Radio_Stations=radio stations found
+Label_Total_Contacts=contacts found
+Label_Total_Messages=messages
+Label_Total_Users=registered users
+Label_Total_Friends=friends
+Label_Total_Events=events
+Label_Tab_Accessories=Accessories
+Button_New_Library=New library
+Button_Download=Download
+Button_Add_My_Music=Add to my music
+Info_Developer=Computers and Technology | Developed by:
+Info_New_Version=There is a new version available.
+Info_Updates_Unavailable=There are currently no updates available.
+Grid_Music_Col_1=Title
+Grid_Music_Col_2=Artist
+Grid_Music_Col_3=Album
+Grid_Music_Col_4=Year
+Grid_Music_Col_5=Gender
+Grid_Music_Col_6=Comment
+Grid_Music_Col_7=Directory
+Grid_Music_Col_8=Classification
+Grid_Movies_Col_1=Title
+Grid_Movies_Col_2=Year
+Grid_Movies_Col_3=Gender
+Grid_Movies_Col_4=Comment
+Grid_Movies_Col_5=Directory
+Grid_Movies_Col_6=Classification
+Grid_Playlist_Col_1=Title
+Grid_Radio_Col_1=Radio station
+Grid_Shop_Col_1=Title
+Grid_Shop_Col_2=Artist
+Grid_Shop_Col_3=Date additives
+Grid_Shop_Col_4=Added by
+Button_Remove=Remove
+Button_Login=Login
+Button_Create_Account=Create account
+Button_Add_Link=Add link
+Button_Log_Off=Log off
+Button_My_Account=My account
+Button_Subtitles=Subtitles online
+Button_New_Playlist=New playlist
+Button_Save_Playlist=Save playlist
+Button_View_Profile=View profile
+Button_Send_Invitation=Send invitation
+Button_What_listening=What I've been listening to?
+Button_Send_Message=Send message
+Menu_File_New_Library=New library
+Menu_File_Update_Library=Update library
+Menu_File_Add_Media=Add media
+Menu_File_New_Playlist=New playlist
+Menu_File_Save_Playlist=Save playlist
+Menu_File_Open_Location=Open location
+Menu_File_Close=Close
+Menu_Edit_Add_Playlist=Add to playlist
+Menu_Edit_Remove_Library=Remove the library
+Menu_Edit_Copie_Url=Copie the url music
+Menu_Edit_Clear_Playlist=Clear playlist
+Menu_View_Compact_Mode=Compact mode
+Menu_View_Cover=Cover
+Menu_View_Playlist=Playlist
+Menu_View_Video_Secreen=Video screen
+Menu_Controls_Play=Play
+Menu_Controls_Pause=Pause
+Menu_Controls_Previous_Track=Previous track
+Menu_Controls_Next_Track=Next track
+Menu_Controls_Mute=Mute
+Menu_Controls_Listen=Listen
+Menu_Tools_Options=Options
+Label_No_Album_Available=No album available
+Icon_Open=Add media
+Icon_Save=Save playlist
+Icon_Clear=Clear playlist
+Icon_Net=Internet access
+Icon_Tag=Tag editor
+Icon_Properties=Properties file
+Icon_Cover_View=View cover
+Icon_Cover_Hide=Hide cover
+Icon_Playlist_View=View playlist
+Icon_Playlist_Hide=Hide playlist
+Icon_Simple=Simple
+Icon_Album_Art=Album art
+Icon_Advanced_Search=Advanced search
+Label_Connecting=Connecting
+Label_Playing=Playing
+Image_Album=Double-click here to load the album of the artist
+Text_Search_Music=Search music
+Button_Update_Program=Update program
+Label_MusicLink_2=Search, listen and download music without limits
+Close_Bar_Updated=Hide
+Button_Fullscreen_On=Full screen
+Button_Fullscreen_Off=Standard screen
+New_Playlist=Create a new Playlist
+Music_Randomize=Play songs randomly
+Music_Repete=Repeat the songs in the library when it comes to an end
+Close_Wmp=Close video screen
+Label_Frame_Cover=Album cover
+Label_Servers_Demand=Servers and infrastructure of demand
+Label_Free=Totally free
+Label_Join_Now=Join now
+Label_Plans_To_Meet=PLANS TO MEET YOUR NEEDS
+Label_Standard=STANDARD
+Label_Advanced=ADVANCED
+Label_Professional=PROFESSIONAL
+Label_Most_Popular=Most popular
+Label_Payment=Monthly p/ month
+Label_Features=Features?
+Label_Storage0=Data storage: Limited
+Label_Storage1=Data Storage: Unlimited
+Label_Storage2=Data Storage: Unlimited
+Label_Management0=File Management: Not available
+Label_Management1=File Management: Limited
+Label_Management2=File Management: Unlimited
+Label_Bar_Contacts=Contacts
+Label_Bar_Events=Events
+Label_Bar_Messages=Messages
+Label_Bar_Files=Files
+Label_Bar_Recent=Recent
+Label_Bar_Favorites=Favorites
+Label_Bar_Community=Community
+Label_Bar_My_Friends=My friends
+Grid_Community_Col_1=User
+Grid_Community_Col_2=Name
+Grid_Community_Col_3=Gender
+Grid_Community_Col_4=Date of birth
+Grid_Community_Col_5=Country
+Grid_Community_Col_6=Photo
+Grid_Community_Col_7=Email
+Grid_Community_Col_8=Profile
+Grid_Messages_Col_1=User
+Grid_Messages_Col_2=Subject
+Grid_Messages_Col_3=Message
+Grid_Messages_Col_4=Date
+Grid_Messages_Col_5=Annex
+Grid_Messages_Col_6=Message read
+Grid_Contacts_Col_1=Full Name
+Grid_Contacts_Col_2=Address
+Grid_Contacts_Col_3=Country
+Grid_Contacts_Col_4=Gender
+Grid_Contacts_Col_5=Date of birth
+Grid_Contacts_Col_6=Phone
+Grid_Contacts_Col_7=Phone
+Grid_Contacts_Col_8=Email
+Grid_Contacts_Col_9=Website
+Grid_Contacts_Col_10=Comments
+Grid_Contacts_Col_11=Photo
+Button_New_Contact=New contact
+Button_Edit_Contact=Edit
+Button_Delete_Contact=Delete
+Button_Send_Mail=Send email
+Grid_Events_Col_1=Title
+Grid_Events_Col_2=Description
+Grid_Events_Col_3=Date
+Grid_Events_Col_4=Time
+Grid_Events_Col_5=Remember me
+Button_New_Event=New event
+Button_Edit_Event=Edit
+Button_Delete_Event=Delete
+Button_If_You_Like=If you liked the program would contribute to their vote.
+Button_I_Like=I like
+Tolltiptext_Enread_Messages=Enread messages
+Quest_Remove_MyMusic=You really want to remove the file from your list?
+Error_Playing_File=An error occurred while playing the file:
+Label_Programs_Installed=Installed programs
+Label_Programs_Category=Category
+Error_Transfer_Program=An error occurred during transfer of the program.
+Button_Transfer_Program=Download
+Button_Execute_Program=Execute
+Button_Remove_Program=Remove
+Button_Cancel_Program=Cancel
+Button_More_Information=More information
+Label_Program_Official_Website=Official website
+Label_Rating=Rating
+Label_Select_Category=SELECT A CATEGORY YOU WANT THE PROGRAM SEARCH
+Folder_Tools=Tools
+Folder_Media=Sound and Video
+Folder_Accessibility=Accessibility
+Folder_Internet=Internet
+Folder_Games=Games
+Label_Transferring_File=Transferring the file. Wait ...
+Label_Download_Complete=Download complete
+Label_Installed_In=Installed in
+
+
+[Wmp]
+Title=Video display
+Button_Close=Close
+
+[PopUp]
+Simple_View=Simple view
+Custom_View=Custom view
+View_Library=View library
+State_Window_Normal=Maintaining the visible window
+State_Window_Over=Keep the hidden window
+
+[Recover_Account]
+Title=Recover data access
+Button_Close=Close
+Label_Email=Email
+Button_Ok=Ok
+Label_Subject=NPlayer - Your data access
+Info_Send_Access_Data=As requested, we send you your access data.
+Info_Send_Access_User=User:
+Info_Send_Access_Password=Password:
+Info_Send_Yours_Sincerely=Yours sincerely,
+Label_Connect1=Connecting to the server...
+Label_Connect2=Sending the email, please wait...
+
+[Profile]
+Title=My account
+Button_Close=Close
+Label_Profile=Profile
+Label_Password=Password
+Label_Name=Full name
+Label_Email=Email
+Label_Date=Date of birth (day/month/year)
+Label_Country=Country
+Label_Gender=Gender
+Option_Male=Male
+Option_Female=Female
+Label_Current_Password=Current Password
+Label_New_Password=New password
+Label_Confirm_Password=Confirm new password
+Check_View=View the contents of fields
+Label_Forgot=Forgot your data access?
+Button_Update=Update
+Button_Ok=Ok
+Button_Cancel=Cancel
+
+[Notification]
+Label_Add_Music=The selected song was added successfully.
+
+[Mini_Player]
+Button_Close=Close
+Button_Tray=Place the tray icon
+Button_Minimize=Minimize
+Button_Restore=Restore
+Button_Mute_On=Mute
+Button_Mute_Off=Listen
+Button_Play=Play
+Button_Pause=Pause
+Button_Previous_Track=Previous track
+Button_Next_Track=Next track
+Label_Video_Display=Video display
+Label_Playlist=Playlist
+
+[Login]
+Title=Login
+Button_Close=Close
+Label_User=User
+Label_Password=Password
+Check_Remember=Remember me
+Label_Forgot=Forgot your data access?
+Label_Create=Create account
+Button_Ok=Ok
+Button_Cancel=Cancel
+Label_Error=The access data are invalid.
+
+[Playlist]
+Title=Playlist
+Button_Close=Close
+
+[Create_Account]
+Title=Create account
+Button_Close=Close
+Label_User=User
+Label_Email=Email
+Label_Password=Password
+Label_Confirm=Confirm password
+Check_View=View the contents of fields
+Button_Ok=Ok
+Button_Cancel=Cancel
+
+[Attributes]
+Title=Properties file
+Button_Close=Close
+Label_File=File
+Label_Name=Name:
+Label_Date=Date:
+Label_Size=Size:
+Check_Read_Only=Read only
+Check_Hide=Hide
+Check_File=File
+Check_System=System
+Button_Ok=Ok
+
+[Add_Link]
+Title=Add link
+Button_Close=Close
+Label_Server=Server (example: http://www.server.net/music.mp3)
+Label_Title=Title
+Label_Artist=Artist
+Label_Date=Date
+Button_Ok=Ok
+Button_Cancel=Cancel
+Info_Link_Add_Success=The link was successfully added to the database.
+Info_Thank_You=Thanks for your input.
+
+[Tag_Editor]
+Title=Tag editor
+Button_Close=Close
+Label_Music=Title
+Label_Artist=Artist
+Label_Album=Album
+Label_Year=Year
+Label_Gender=Gender
+Label_Comment=Comment
+Label_Remove=Remove the tags of music
+Icon_Add_Cover=Add cover
+Icon_Remove_Cover=Remove cover
+Button_Music_Previous=Previous
+Button_Music_Next=Next
+Button_Update=Update
+Button_Ok=Ok
+Button_Cancel=Cancel
+
+[Update]
+Title=Update program
+Button_Close=Close
+Location_Program=Location of program
+Check_Start_Program=Start the program after updating
+Label_State_Download=State of the transfer
+Select_Folder=Select folder
+Error_Download_Program=An error occurred during transfer of the program.
+Label_State=State of the transfer
+Button_Ok=Update
+Button_Cancel=Cancel
+
+[Preferences]
+Title=Preferences
+Button_Close=Close
+Button_Update=Update
+Button_Ok=Ok
+Button_Cancel=Cancel
+Label_Main=Main
+Label_Preview=Preview
+Label_Language=Language
+Label_Skin=Theme
+Label_Add=Add-ons
+Label_Downloads=Save the songs transferred in
+Check_Save_Playlist=Save the playlist upon closing the program
+Check_View_Playlist=View playlist
+Check_View_Cover=View cover of the file
+Check_Language_Program=Language of the program
+Check_Skin_Program=Theme of the program
+Label_Info=Preferences updated successfully.
+Label_Close=Hide
+Label_Remover=Remove
+Label_Install=Install
+Check_Updated=Check for updates automatically
+Label_Wallpaper=Wallpaper MusicLink
+Check_Wallpaper=See wallpaper
+Button_Find=Select wallpaper
+Button_Select_Folder=Select folder
+Check_Tray=Minimize the program in the systray (next to the clock)
+
+[Import]
+Title=Import media
+Button_Close=Close
+Option_Yes=Search for files on my computer
+Label_Info=(Once initialized, the program lets you add back the media files in various ways)
+Button_Find=Search folder
+Option_No=Do not import now average
+Button_Search_1=Start search
+Button_Search_2=Stop search
+Button_Search_3=Complete
+Button_Cancel=Cancel
+Info_Files=Files found:
+Info_Add_1=Adding...
+Info_Add_2=files
+Operation_Canceled=Operation canceled
+
+[Download]
+Title=Download
+Button_Close=Close
+Button_Minimize=Minimize
+Label_Server=Server
+Label_Path=Destination folder
+Label_State_Download=State of the transfer
+Select_Folder=Select folder
+Check_Close=Close the form to complete the transfer
+Error_Download_Program=An error occurred during transfer of the program.
+Label_State=State of the transfer
+Button_Ok=Download
+Button_Cancel=Cancel
+
+[Subtitles]
+Title=Subtitles Online
+Button_Close=Close
+Button_Download=Download
+Grid_Col_1=File
+Grid_Col_2=Language
+Grid_Col_3=Format
+Grid_Col_4=Title

@@ -1,0 +1,524 @@
+++++++++++++++++++++++++++++++++++++++++++
+    NPlayer - Nikyts software
+    http://www.nikyts.com
+++++++++++++++++++++++++++++++++++++++++++
+
+    Language: Portuguese (PT)
+		
+[Setup]
+Title=Configurações do NPlayer
+Button_Close=Fechar
+Label_Welcome=Bem vindo ao NPlayer
+Label_Set=Defina as suas preferências
+Label_Language=Idioma
+Check_Shortcut=Criar atalho no ambiente de trabalho
+Button_Ok=Ok
+Button_Cancel=Cancelar
+
+[Install]
+Title1=Verificar componentes
+Title2=Registar componentes
+Button_Close=Fechar
+Label_Info=O programa para ser executado correctamente poderá ter que registar algumas componentes.
+Button_Ok=Registar
+Button_Cancel=Cancelar
+
+[Support]
+Title=Suporte técnico
+Button_Close=Fechar
+Label_Error=Indique um endereço de email válido.
+Label_Info=(Para possivel contacto caso seja necessário)
+Label_Of=E-mail
+Label_Subject=Assunto
+Label_Message=Mensagem
+Label_Report=Reportar erro
+Label_Suggestion=Sugestão
+Label_Question=Questão
+Label_Other=Outro
+Button_Ok=Enviar
+Button_Cancel=Cancelar
+
+[Message]
+Button_Close=Fechar
+Label_Yes=Sim
+Label_Ok=OK
+Label_No=Não
+Check_Remove=Remover o ficheiro da biblioteca
+Label_Error=Erro nº:
+Label_Description=Descrição:
+Error_Execution=Ocorreu um erro durante a execução do programa.
+Error_Register=Ocorreu um erro ao registar as componetes do programa.
+Error_Suggestion=Sugestão: execute o programa como administrador.
+Error_Connect=Ocorreu um erro ao tentar conectar-se ao servidor.
+Error_internet=Possivel causa: a sua conexão á internet poderá estar desligada.
+Info_Posted=A sua mensagem foi enviada com sucesso.
+Error_Email_Invalid=O email é inválido.
+Error_Email_No_Exist=O email indicado não está registado.
+Info_Request_Success1=O seu pedido foi enviado com o sucesso.
+Info_Request_Success2=Receberá um email com os seus dados de acesso.
+Error_TextBox_Required=Campo de preenchimento obrigatório.
+Info_Profile_Update=O seu perfil foi actualizado com sucesso.
+Error_Current_Password=A senha atual está inválida.
+Error_Password_Characters=A senha tem que ter no minimo 6 digitos.
+Error_Confirm_Password=Confirme a senha corretamente.
+Info_Password_Changed=Senha alterada com sucesso.
+Error_User_Already_Exists=O utilizador indicado já existe.
+Info_Create_Account_Success=Conta criada com sucesso.
+Quest_Remove_File=Pretende realmente remover o ficheiro:
+Error_File_Not_Found=O ficheiro selecionado não foi encontrado.
+Error_Remove_Selected_File=Não foi possivel remover o ficheiro selecionado.
+Info_Profile_Private1=O perfil deste utilizador está classificado como privado,
+Info_Profile_Private2=não sendo possivel visualizá-lo.
+Info_Invitation1=Olá!
+Info_Invitation2=O utilizador
+Info_Invitation3=enviou-lhe um convite de amizade.
+Info_Invitation_Sent_Successfully=O seu convite foi enviado com sucesso.
+Error_Send_Mail1=Ocorreu um erro ao enviar e-mail.
+Error_Send_Mail2=Por favor, tente novamente.
+Error_DB_Server_Not_Found=Ocorreu um erro ao tentar conectar-se ao servidor.
+
+[About]
+Button_Close=Fechar
+Label_Version=Versão
+Label_Developer=Desenvolvido por
+Label_Informatic=Informática e tecnologia
+
+[New_Library]
+Title=Nova biblioteca
+Button_Close=Fechar
+Label_Search=Pesquisar em:
+Button_Search_1=Iniciar pesquisa
+Button_Search_2=Parar pesquisa
+Button_Find=Selecionar pasta
+Info_Files=Ficheiros encontrados:
+Info_Add_1=Adicionando...
+Info_Add_2=ficheiros
+Operation_Canceled=Operação cancelada
+
+[Main]
+Label_File=Ficheiro
+Label_Edit=Editar
+Label_View=Ver
+Label_Controls=Controlos
+Label_Tools=Ferramentas
+Label_Help=Ajuda
+Button_Close=Fechar
+Button_Minimize=Minimizar
+Button_Maximize=Maximizar
+Button_Restore=Restaurar
+Button_Play=Reproduzir
+Button_Pause=Pausa
+Button_Previous_Track=Faixa anterior
+Button_Next_Track=Faixa seguinte
+Topic_Library=Bilioteca
+Topic_Music=Música
+Topic_Movies=Filmes
+Topic_Services=Serviços
+Topic_Radio=Rádio
+Topic_Playlist=Listas
+Topic_Find=Procurar
+Topic_My_Music=A minha música
+Topic_Search=Resultado da pesquisa
+Name_Of_New_Playlist=Nova lista
+Button_Mute_On=Mudo
+Button_Mute_Off=Ouvir
+Menu_About=Sobre
+Menu_Technical_Support=Suporte técnico
+Menu_Official_Website=Site oficial
+Menu_Check_Updates=Verificar se há atualizações
+Label_Total_Music=músicas encontradas
+Label_Total_Movies=filmes encontrados
+Label_Total_Files_Online=ficheiros encontrados
+Label_Total_Radio_Stations=estações de rádio encontradas
+Label_Total_Contacts=contactos encontrados
+Label_Total_Messages=mensagens
+Label_Total_Users=utilizadores registrados
+Label_Total_Friends=amigos
+Label_Total_Events=eventos
+Label_Tab_Accessories=Complementos
+Button_New_Library=Nova biblioteca
+Button_Download=Transferir
+Button_Add_My_Music=Adicionar à minha música
+Info_Developer=Informática e tecnologia  |  Desenvolvido por:
+Info_New_Version=Existe uma nova versão disponivel.
+Info_Updates_Unavailable=De momento não exitem atualizações disponíveis.
+Grid_Music_Col_1=Titulo
+Grid_Music_Col_2=Artista
+Grid_Music_Col_3=Album
+Grid_Music_Col_4=Ano
+Grid_Music_Col_5=Género
+Grid_Music_Col_6=Comentário
+Grid_Music_Col_7=Directório
+Grid_Music_Col_8=Classificação
+Grid_Movies_Col_1=Titulo
+Grid_Movies_Col_2=Ano
+Grid_Movies_Col_3=Género
+Grid_Movies_Col_4=Comentário
+Grid_Movies_Col_5=Directório
+Grid_Movies_Col_6=Classificação
+Grid_Playlist_Col_1=Titulo
+Grid_Radio_Col_1=Estação da rádio
+Grid_Shop_Col_1=Titulo
+Grid_Shop_Col_2=Artista
+Grid_Shop_Col_3=Data de adicionamento
+Grid_Shop_Col_4=Adicionado por
+Button_Remove=Remover
+Button_Login=Iniciar sessão
+Button_Create_Account=Criar conta
+Button_Add_Link=Adicionar link
+Button_Log_Off=Terminar sessão
+Button_My_Account=A minha conta
+Button_Subtitles=Legendas on-line
+Button_New_Playlist=Nova lista
+Button_Save_Playlist=Guardar lista
+Button_View_Profile=Ver perfil
+Button_Send_Invitation=Enviar convite
+Button_What_listening=O que ando a ouvir?
+Button_Send_Message=Enviar mensagem
+Menu_File_New_Library=Nova biblioteca
+Menu_File_Update_Library=Actualizar biblioteca
+Menu_File_Add_Media=Adicionar media
+Menu_File_New_Playlist=Nova lista de reprodução
+Menu_File_Save_Playlist=Guardar lista
+Menu_File_Open_Location=Abrir localização
+Menu_File_Close=Fechar
+Menu_Edit_Add_Playlist=Adicionar à lista de reprodução
+Menu_Edit_Remove_Library=Remover da biblioteca
+Menu_Edit_Clear_Playlist=Limpar lista de reprodução
+Menu_Edit_Copie_Url=Copiar url da música
+Menu_View_Compact_Mode=Modo compacto
+Menu_View_Cover=Capa
+Menu_View_Playlist=Lista de reprodução
+Menu_View_Video_Secreen=Tela de video
+Menu_Controls_Play=Reproduzir
+Menu_Controls_Pause=Pausa
+Menu_Controls_Previous_Track=Faixa anterior
+Menu_Controls_Next_Track=Faixa seguinte
+Menu_Controls_Mute=Mudo
+Menu_Controls_Listen=Ouvir
+Menu_Tools_Options=Opções
+Label_No_Album_Available=Nenhum album disponivel
+Icon_Open=Adicionar media
+Icon_Save=Guardar lista
+Icon_Clear=Limpar lista
+Icon_Net=Acesso à internet
+Icon_Tag=Editor de tags
+Icon_Properties=Propriedades do ficheiro
+Icon_Cover_View=Ver capa
+Icon_Cover_Hide=OCultar capa
+Icon_Playlist_View=Ver lista de reprodução
+Icon_Playlist_Hide=Ocultar lista de reprodução
+Icon_Simple=Simples
+Icon_Album_Art=Album art
+Icon_Advanced_Search=Pesquisa avançada
+Label_Connecting=Conectando
+Label_Playing=Reproduzindo
+Image_Album=Faça double-click aqui para carregar o album do artista
+Text_Search_Music=Pesquisar música
+Button_Update_Program=Actualizar programa
+Label_MusicLink_2=Pesquise, ouça e transfira músicas sem limites
+Close_Bar_Updated=Ocultar
+Button_Fullscreen_On=Tela cheia
+Button_Fullscreen_Off=Tela normal
+New_Playlist=Criar uma nova lista de reprodução
+Music_Randomize=Reproduzir as músicas aleatóriamente
+Music_Repete=Repetir as músicas da biblioteca quando esta chegar ao fim
+Close_Wmp=Fechar a tela de video
+Label_Frame_Cover=Capa do album
+Label_Servers_Demand=Servidores e infra-estruturas de demanda
+Label_Free=Totalmente grátis
+Label_Join_Now=Aderir agora
+Label_Plans_To_Meet=PLANOS QUE ATENDEM AS SUAS NECESSIDADES
+Label_Standard=PADRÃO
+Label_Advanced=AVANÇADO
+Label_Professional=PROFISSIONAL
+Label_Most_Popular=Mais popular
+Label_Payment=Mensalidade p/ mês
+Label_Features=Funcionalidades?
+Label_Storage0=Armazenamento de dados: Limitado
+Label_Storage1=Armazenamento de dados: Ilimitado
+Label_Storage2=Armazenamento de dados: Ilimitado
+Label_Management0=Gerenciamento ficheiros: Não disponivel
+Label_Management1=Gerenciamento de ficheiros: Limitado
+Label_Management2=Gerenciamento de ficheiros: Ilimitado
+Label_Bar_Contacts=Contactos
+Label_Bar_Events=Eventos
+Label_Bar_Messages=Mensagens
+Label_Bar_Files=Ficheiros
+Label_Bar_Recent=Recentes
+Label_Bar_Favorites=Favoritos
+Label_Bar_Community=Comunidade
+Label_Bar_My_Friends=Os meus amigos
+Grid_Community_Col_1=Utilizador
+Grid_Community_Col_2=Nome
+Grid_Community_Col_3=Género
+Grid_Community_Col_4=Data de nascimento
+Grid_Community_Col_5=País
+Grid_Community_Col_6=Foto
+Grid_Community_Col_7=Email
+Grid_Community_Col_8=Perfil
+Grid_Messages_Col_1=Utilizador
+Grid_Messages_Col_2=Assunto
+Grid_Messages_Col_3=Mensagem
+Grid_Messages_Col_4=Data
+Grid_Messages_Col_5=Anexo
+Grid_Messages_Col_6=Mensagem lida
+Grid_Contacts_Col_1=Nome completo
+Grid_Contacts_Col_2=Morada
+Grid_Contacts_Col_3=País
+Grid_Contacts_Col_4=Género
+Grid_Contacts_Col_5=Data de nascimento
+Grid_Contacts_Col_6=Telefone
+Grid_Contacts_Col_7=Telemóvel
+Grid_Contacts_Col_8=Email
+Grid_Contacts_Col_9=Site
+Grid_Contacts_Col_10=Observações
+Grid_Contacts_Col_11=Foto
+Button_New_Contact=Novo contacto
+Button_Edit_Contact=Editar
+Button_Delete_Contact=Eliminar
+Button_Send_mail=Enviar email
+Grid_Events_Col_1=Titulo
+Grid_Events_Col_2=Descrição
+Grid_Events_Col_3=Data
+Grid_Events_Col_4=Hora
+Grid_Events_Col_5=Lembrar-me
+Button_New_Event=Novo evento
+Button_Edit_Event=Editar
+Button_Delete_Event=Eliminar
+Button_If_You_Like=Se gostou do programa contribua para a sua votação.
+Button_I_Like=Eu gosto
+Tolltiptext_Enread_Messages=Mensagens não lidas
+Quest_Remove_MyMusic=Pretende realmente remover o ficheiro da sua lista?
+Error_Playing_File=Ocorreu um erro ao reproduzir o ficheiro:
+Label_Programs_Installed=Programas instalados
+Label_Programs_Category=Categoria
+Error_Transfer_Program=Ocorreu um erro durante a transferência do programa.
+Button_Transfer_Program=Transferir
+Button_Execute_Program=Executar
+Button_Remove_Program=Remover
+Button_Cancel_Program=Cancelar
+Button_More_Information=Mais informações
+Label_Program_Official_Website=Official website
+Label_Rating=Classificação
+Label_Select_Category=SELECIONE A CATEGORIA DO PROGRAMA QUE PRETENDE PESQUISAR
+Folder_Tools=Ferramentas
+Folder_Media=Som e video
+Folder_Accessibility=Acessibilidade
+Folder_Internet=Internet
+Folder_Games=Jogos
+Label_Transferring_File=Transferindo o ficheiro. Aguarde...
+Label_Download_Complete=Transferência completa
+Label_Installed_In=Instalado em
+
+[Wmp]
+Title=Ecrã de video
+Button_Close=Fechar
+
+[PopUp]
+Simple_View=Visualização simples
+Custom_View=Visualização personalizada
+View_Library=Ver biblioteca
+State_Window_Normal=Manter a janela visivel
+State_Window_Over=Manter a janela oculta
+
+[Recover_Account]
+Title=Recuperar dados de acesso
+Button_Close=Fechar
+Label_Email=Email
+Button_Ok=Ok
+Label_Subject=NPlayer - Os seus dados de acesso
+Info_Send_Access_Data=Como foi solicitado, enviamos-lhe os seus dados de acesso.
+Info_Send_Access_User=Utilizador:
+Info_Send_Access_Password=Senha:
+Info_Send_Yours_Sincerely=Com os melhores cumprimentos,
+Label_Connect1=Conectando-se ao servidor...
+Label_Connect2=Enviando o email, por favor aguarde...
+
+[Profile]
+Title=A minha conta
+Button_Close=Fechar
+Label_Profile=Perfil
+Label_Password=Senha
+Label_Name=Nome completo
+Label_Email=Email
+Label_Date=Data de nascimento (dia/mês/ano)
+Label_Country=País
+Label_Gender=Género
+Option_Male=Masculino
+Option_Female=Feminino
+Label_Current_Password=Senha actual
+Label_New_Password=Nova senha
+Label_Confirm_Password=Confirmar a nova senha
+Check_View=Visualizar o conteúdo dos campos
+Label_Forgot=Esqueceu-se dos seus dados de acesso?
+Button_Update=Actualizar
+Button_Ok=Ok
+Button_Cancel=Cancelar
+
+[Notification]
+Label_Add_Music=A música selecionada foi adicionada com sucesso.
+
+[Mini_Player]
+Button_Close=Fechar
+Button_Tray=Colocar o ícone na bandeja
+Button_Minimize=Minimizar
+Button_Restore=Restaurar
+Button_Mute_On=Mudo
+Button_Mute_Off=Ouvir
+Button_Play=Reproduzir
+Button_Pause=Pausa
+Button_Previous_Track=Faixa anterior
+Button_Next_Track=Faixa seguinte
+Label_Video_Display=Ecrã de video
+Label_Playlist=Lista de reprodução
+
+[Login]
+Title=Iniciar sessão
+Button_Close=Fechar
+Label_User=Utilizador
+Label_Password=Senha
+Check_Remember=Lembre-se de mim
+Label_Forgot=Esqueceu-se dos seus dados de acesso?
+Label_Create=Criar conta
+Button_Ok=Ok
+Button_Cancel=Cancelar
+Label_Error=Os dados de acesso estão inválidos.
+
+[Playlist]
+Title=Lista
+Button_Close=Fechar
+
+[Create_Account]
+Title=Criar conta
+Button_Close=Fechar
+Label_User=Utilizador
+Label_Email=Email
+Label_Password=Senha
+Label_Confirm=Confirmar senha
+Check_View=Visualizar o conteúdo dos campos
+Button_Ok=Ok
+Button_Cancel=Cancelar
+
+[Attributes]
+Title=Propriedades do ficheiro
+Button_Close=Fechar
+Label_File=Ficheiro
+Label_Name=Nome:
+Label_Date=Data:
+Label_Size=Tamanho:
+Check_Read_Only=Ler apenas
+Check_Hide=Ocultar
+Check_File=Ficheiro
+Check_System=Sistema
+Button_Ok=Ok
+Button_Cancel=Cancelar
+
+[Add_Link]
+Title=Adicionar link
+Button_Close=Fechar
+Label_Server=Servidor (exemplo: http://www.servidor.net/musica.mp3)
+Label_Title=Titulo
+Label_Artist=Artista
+Label_Date=Data
+Button_Ok=Ok
+Button_Cancel=Cancelar
+Info_Link_Add_Success=O link foi adicionado com sucesso à base de dados.
+Info_Thank_You=Obrigado pela sua contribuição.
+
+[Tag_Editor]
+Title=Editor de tags
+Button_Close=Fechar
+Label_Music=Titulo
+Label_Artist=Artista
+Label_Album=Album
+Label_Year=Ano
+Label_Gender=Género
+Label_Comment=Comentário
+Label_Remove=Remover as tags da música
+Icon_Add_Cover=Adicionar capa
+Icon_Remove_Cover=Remover capa
+Button_Music_Previous=Anterior
+Button_Music_Next=Seguinte
+Button_Update=Actualizar
+Button_Ok=Ok
+Button_Cancel=Cancelar
+
+[Update]
+Title=Actualizar programa
+Button_Close=Fechar
+Location_Program=Localização do programa
+Check_Start_Program=Iniciar o programa após a actualização
+Label_State_Download=Estado da transferência
+Select_Folder=Selecionar pasta
+Error_Download_Program=Ocorreu um erro durante a transferência do programa.
+Label_State=Estado da transferência
+Button_Ok=Actualizar
+Button_Cancel=Cancelar
+
+[Preferences]
+Title=Preferências
+Button_Close=Fechar
+Button_Update=Actualizar
+Button_Ok=Ok
+Button_Cancel=Cancelar
+Label_Main=Geral
+Label_Preview=Visualização
+Label_Language=Idioma
+Label_Skin=Tema
+Label_Add=Complementos
+Label_Downloads=Guardar as músicas transferidas em
+Check_Save_Playlist=Guardar a lista de reprodução ao fechar o programa
+Check_View_Playlist=Ver a lista de reprodução
+Check_View_Cover=Ver a capa do ficheiro
+Check_Language_Program=Idioma do programa
+Check_Skin_Program=Tema do programa
+Label_Info=Preferências actualizadas com sucesso.
+Label_Close=Ocultar
+Label_Remover=Remover
+Label_Install=Instalar
+Check_Updated=Verificar actualizações automaticamente
+Label_Wallpaper=Papel de parede da MusicLink
+Check_Wallpaper=Visualizar papel de parede
+Button_Find=Selecionar papel de parede
+Button_Select_Folder=Selecionar pasta
+Check_Tray=Minimizar o programa no systray (ao lado do clock)
+
+[Import]
+Title=Importar media
+Button_Close=Fechar
+Option_Yes=Procurar ficheiros no meu computador
+Label_Info=(Uma vez inicializado, o programa permite que você adicione novamente ficheiros mídia de várias formas)
+Button_Find=Pesquisar pasta
+Option_No=Não importar media agora
+Button_Search_1=Iniciar pesquisa
+Button_Search_2=Parar pesquisa
+Button_Search_3=Concluir
+Button_Cancel=Cancelar
+Info_Files=Ficheiros encontrados:
+Info_Add_1=Adicionando...
+Info_Add_2=ficheiros
+Operation_Canceled=Operação cancelada
+
+[Download]
+Title=Transferir
+Button_Close=Fechar
+Button_Minimize=Minimizar
+Label_Server=Servidor
+Label_Path=Pasta de destino
+Label_State_Download=Estado da transferência
+Select_Folder=Selecionar pasta
+Check_Close=Fechar o formulário ao terminar a transferência
+Error_Download_Program=Ocorreu um erro durante a transferência do programa.
+Label_State=Estado da transferência
+Button_Ok=Transferir
+Button_Cancel=Cancelar
+
+[Subtitles]
+Title=Legendas on-line
+Button_Close=Fechar
+Button_Download=Transferir
+Grid_Col_1=Ficheiro
+Grid_Col_2=Idioma
+Grid_Col_3=Formato
+Grid_Col_4=Titulo
